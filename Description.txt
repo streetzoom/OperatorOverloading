@@ -1,7 +1,4 @@
-Section 14 Challenge
-Operator overloading
------------------------
-Overload the following operators in the provided Mystring class.
+Overload the following operators
 
 To gain experience overloading operators, you should do this challenge twice.
 First, overload the operators using member functions and then in another project overload the same operators
@@ -33,28 +30,3 @@ Here is a list of some of the operators that you can overload for this class:
             s1 = "abc";
             s1 *= 4;        s1 = s1 will result in "abcabcabcabc"
       
-If you wish to overlod the ++ and -- operators remember that they have pre and post versions.
-
-The semantics should be as follows (this shows the member method version):
-
-Mystring &operator++()   {  // pre-increment
-   // do what ever you want increment do to - maybe make all characters uppercase?
-   return *this;
-}
-
-// Note that post-increment returns a Mystring by value not by reference
-Mystring operator++(int) {   // post-increment
-   Mystring temp (*this);       // make a copy
-   operator++();                    // call pre-increment - make sure you call pre-increment!
-   return temp;                     // return the old value
-}
-
-
-Have fun! Think of some other operators that might be useful!
-Don't worry if they all don't make sense -- this is an exercise about learning how
-to overload operators.
-
-Hints:
-1. take advantage of the std::strcmp function for the equality operators!
-2. the += and *= operators should return a Mystring &
-3. rather than duplicate code in the += and *= functions, use the + and * operators which you have already overloaded!
