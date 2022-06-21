@@ -14,7 +14,7 @@ Here is a list of some of the operators that you can overload for this class:
 
 -          - unary minus. Returns the lowercase version of the object's string
 
-           -s1
+           (-s1)
 
 ==         - returns true if the two strings are equal
 
@@ -32,7 +32,7 @@ Here is a list of some of the operators that you can overload for this class:
 
           (s1 > s2)
 
-+      - concatenation. Returns an object that concatenates the lhs and rhs
++          - concatenation. Returns an object that concatenates the lhs and rhs
 
            s1 + s2
 
