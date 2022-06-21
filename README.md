@@ -31,7 +31,6 @@ Here is a list of some of the operators that you can overload for this class:
 >      - returns true if the lhs string is lexically greater than the rhs string
 
           (s1 > s2)
-
 +          - concatenation. Returns an object that concatenates the lhs and rhs
 
            s1 + s2
