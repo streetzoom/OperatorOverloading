@@ -12,7 +12,7 @@ Please do it once using member methods and then again using non-member functions
 Here is a list of some of the operators that you can overload for this class:
 
 
--      - unary minus. Returns the lowercase version of the object's string
+-    - unary minus. Returns the lowercase version of the object's string
 
            -s1
 
@@ -32,7 +32,7 @@ Here is a list of some of the operators that you can overload for this class:
 
           (s1 > s2)
 
-+       - concatenation. Returns an object that concatenates the lhs and rhs
++      - concatenation. Returns an object that concatenates the lhs and rhs
 
            s1 + s2
 
@@ -40,7 +40,7 @@ Here is a list of some of the operators that you can overload for this class:
 
           s1 += s2;      equivalent to s1 = s1 + s2;
 
-*        - repeat -  results in a string that is copied n times
+*     - repeat -  results in a string that is copied n times
 
           s2 * 3;          ex). s2 = "abc"; 
 
@@ -48,7 +48,7 @@ Here is a list of some of the operators that you can overload for this class:
 
                                    s1 will result in "abcabcabc"
 
-*=      - repeat the string on the lhs n times and store the result back in the lhs object
+*=   - repeat the string on the lhs n times and store the result back in the lhs object
 
             s1 = "abc";
 
