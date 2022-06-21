@@ -12,11 +12,11 @@ Please do it once using member methods and then again using non-member functions
 Here is a list of some of the operators that you can overload for this class:
 
 
--    - unary minus. Returns the lowercase version of the object's string
+-          - unary minus. Returns the lowercase version of the object's string
 
            -s1
 
-==    - returns true if the two strings are equal
+==         - returns true if the two strings are equal
 
            (s1 == s2)
 
